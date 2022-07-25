@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    background-image: url("./images/stars.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-family: 'Press Start 2P', sans-serif;
+    color: beige;
+    margin: 0;
+}
+
+.input-date {
+    text-align: center;
+    line-height: 1.5rem;
+    margin-top: 5rem;
+}
+
+.title-font {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.count-down { 
+    line-height: 1.5rem;
+    margin-top: 5rem;
+    /* display: flex; */
+}
+
+.col-sm {
+    margin : 2rem 4rem;
+}
